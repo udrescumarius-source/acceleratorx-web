@@ -1,9 +1,7 @@
 import createMiddleware from 'next-intl/middleware';
+import i18nConfig from './next-intl.config';
 
-export default createMiddleware({
-  locales: ['ro', 'en', 'fr'],
-  defaultLocale: 'ro'
-});
+export default createMiddleware(i18nConfig);
 
 export const config = {
   matcher: ['/', '/(ro|en|fr)/:path*']

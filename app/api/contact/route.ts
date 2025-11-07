@@ -23,7 +23,7 @@ export async function POST(req: Request) {
       from,
       to,
       subject: `Contact AcceleratorX: ${name}`,
-      reply_to: email,
+      replyTo: email,
       text: message
     });
 

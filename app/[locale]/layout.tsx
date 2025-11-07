@@ -1,18 +1,19 @@
 import '../globals.css';
 import {NextIntlClientProvider} from 'next-intl';
-import {getMessages, unstable_setRequestLocale, getTranslations} from 'next-intl/server';
+import {getMessages, setRequestLocale, getTranslations} from 'next-intl/server';
 import Link from 'next/link';
 import {ReactNode} from 'react';
+import {locales} from '../../i18n';
 
 export default async function LocaleLayout({
   children,
   params
 }: {
   children: ReactNode;
-  params: {locale: string};
+  params: Promise<{locale: string}>;
 }) {
-  const {locale} = params;
-  unstable_setRequestLocale(locale);
+  const {locale} = await params;
+  setRequestLocale(locale);
   const messages = await getMessages();
   const t = await getTranslations('nav');
 
@@ -44,4 +45,8 @@ export default async function LocaleLayout({
       </body>
     </html>
   );
+}
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({locale}));
 }
