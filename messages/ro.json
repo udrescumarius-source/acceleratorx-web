@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "civil": "Civil",
+    "defense": "Apărare",
+    "applications": "Aplicații",
+    "research": "Cercetare",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Accelerator de particule",
+    "subtitle": "Prezentare pentru industrie civilă și apărare, aplicații și cercetare"
+  }
+}

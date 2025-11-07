@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Home",
+    "civil": "Civil",
+    "defense": "Defense",
+    "applications": "Applications",
+    "research": "Research",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Particle Accelerator",
+    "subtitle": "Presentation for civil and defense, applications and research"
+  }
+}

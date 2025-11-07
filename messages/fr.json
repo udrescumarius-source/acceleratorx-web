@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "civil": "Civil",
+    "defense": "Défense",
+    "applications": "Applications",
+    "research": "Recherche",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Accélérateur de particules",
+    "subtitle": "Présentation pour le civil et la défense, applications et recherche"
+  }
+}
