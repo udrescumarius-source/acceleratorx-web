@@ -8,7 +8,39 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Particle Accelerator",
-    "subtitle": "Presentation for civil and defense, applications and research"
+    "title": "Next‑generation particle accelerator",
+    "subtitle": "Strategic infrastructure for civil industry, defense and research excellence"
+  },
+  "civil": {
+    "title": "Civil pathway",
+    "intro": "Solutions for industry, healthcare and energy, with traceability, safety and optimized total cost.",
+    "bullets": [
+      "Industrial sterilization and decontamination",
+      "Advanced radiotherapy and imaging",
+      "Materials testing and non‑destructive evaluation",
+      "Medical isotope production"
+    ]
+  },
+  "defense": {
+    "title": "Defense pathway",
+    "intro": "Dual‑use capabilities for testing, sensor calibration, CBRN protection and critical infrastructure security.",
+    "bullets": [
+      "Sensor calibration and validation",
+      "Testing of materials and protective shielding",
+      "Training and operational protocols",
+      "Infrastructure security and resilience"
+    ]
+  },
+  "applications": {
+    "title": "Applications",
+    "intro": "Modular, scalable portfolio for industrial, clinical and special‑mission workflows."
+  },
+  "research": {
+    "title": "Research",
+    "intro": "Open platform for university partnerships and consortia, with access to data and experimental facilities."
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Tell us your objectives. We provide technical advisory and a tailored roadmap."
   }
 }

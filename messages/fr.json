@@ -8,7 +8,39 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Accélérateur de particules",
-    "subtitle": "Présentation pour le civil et la défense, applications et recherche"
+    "title": "Accélérateur de particules de nouvelle génération",
+    "subtitle": "Infrastructure stratégique pour l’industrie civile, la défense et l’excellence scientifique"
+  },
+  "civil": {
+    "title": "Volet civil",
+    "intro": "Solutions pour l’industrie, la santé et l’énergie, avec traçabilité, sûreté et coût total optimisé.",
+    "bullets": [
+      "Stérilisation et décontamination industrielles",
+      "Radiothérapie avancée et imagerie",
+      "Essais de matériaux et contrôles non destructifs",
+      "Production d’isotopes médicaux"
+    ]
+  },
+  "defense": {
+    "title": "Volet défense",
+    "intro": "Capacités duales pour les essais, l’étalonnage des capteurs, la protection NRBC et la sécurité des infrastructures critiques.",
+    "bullets": [
+      "Étalonnage et validation des capteurs",
+      "Essais des matériaux et écrans de protection",
+      "Entraînement et protocoles opérationnels",
+      "Sécurité et résilience des infrastructures"
+    ]
+  },
+  "applications": {
+    "title": "Applications",
+    "intro": "Portefeuille modulaire et évolutif pour les flux industriels, cliniques et missions spéciales."
+  },
+  "research": {
+    "title": "Recherche",
+    "intro": "Plateforme ouverte pour les partenariats académiques et les consortiums, avec accès aux données et aux installations expérimentales."
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Partagez vos objectifs. Nous fournissons un conseil technique et une feuille de route sur mesure."
   }
 }

@@ -1,6 +1,6 @@
 import '../globals.css';
 import {NextIntlClientProvider} from 'next-intl';
-import {getMessages, unstable_setRequestLocale} from 'next-intl/server';
+import {getMessages, unstable_setRequestLocale, getTranslations} from 'next-intl/server';
 import Link from 'next/link';
 import {ReactNode} from 'react';
 
@@ -14,6 +14,7 @@ export default async function LocaleLayout({
   const {locale} = params;
   unstable_setRequestLocale(locale);
   const messages = await getMessages();
+  const t = await getTranslations('nav');
 
   return (
     <html lang={locale}>
@@ -22,12 +23,12 @@ export default async function LocaleLayout({
           <header className="border-b">
             <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
               <nav className="flex gap-4 text-sm font-medium">
-                <Link href={`/${locale}`}>Acasă</Link>
-                <Link href={`/${locale}/civil`}>Civil</Link>
-                <Link href={`/${locale}/defense`}>Apărare</Link>
-                <Link href={`/${locale}/applications`}>Aplicații</Link>
-                <Link href={`/${locale}/research`}>Cercetare</Link>
-                <Link href={`/${locale}/contact`}>Contact</Link>
+                <Link href={`/${locale}`}>{t('home')}</Link>
+                <Link href={`/${locale}/civil`}>{t('civil')}</Link>
+                <Link href={`/${locale}/defense`}>{t('defense')}</Link>
+                <Link href={`/${locale}/applications`}>{t('applications')}</Link>
+                <Link href={`/${locale}/research`}>{t('research')}</Link>
+                <Link href={`/${locale}/contact`}>{t('contact')}</Link>
               </nav>
               <div className="flex items-center gap-2 text-sm">
                 <Link href="/ro">RO</Link>

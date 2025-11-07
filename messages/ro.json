@@ -8,7 +8,39 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Accelerator de particule",
-    "subtitle": "Prezentare pentru industrie civilă și apărare, aplicații și cercetare"
+    "title": "Accelerator de particule de ultimă generație",
+    "subtitle": "Infrastructură strategică pentru industrie civilă, apărare și excelență în cercetare"
+  },
+  "civil": {
+    "title": "Calea civilă",
+    "intro": "Soluții pentru industrie, medicină și energie, cu trasabilitate, siguranță și cost total optimizat.",
+    "bullets": [
+      "Sterilizare și decontaminare industrială",
+      "Radioterapie avansată și imagistică",
+      "Testare materialelor și control nedistructiv",
+      "Producție de izotopi medicali"
+    ]
+  },
+  "defense": {
+    "title": "Calea pentru apărare",
+    "intro": "Capabilități dual-use pentru testare, calibrare senzori, protecție CBRN și securitate infrastructuri critice.",
+    "bullets": [
+      "Calibrare și validare senzori",
+      "Testare materiale și ecrane de protecție",
+      "Instruire și protocoale operaționale",
+      "Securitate și reziliență infrastructuri"
+    ]
+  },
+  "applications": {
+    "title": "Aplicații",
+    "intro": "Portofoliu modular, scalabil, pentru fluxuri industriale, clinic și misiuni speciale."
+  },
+  "research": {
+    "title": "Cercetare",
+    "intro": "Platformă deschisă pentru parteneriate universitare și consorții, cu acces la date și facilități experimentale."
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Spune-ne obiectivele tale. Îți oferim consultanță tehnică și foaie de parcurs personalizată."
   }
 }
