@@ -19,7 +19,8 @@
       "Advanced radiotherapy and imaging",
       "Materials testing and non‑destructive evaluation",
       "Medical isotope production"
-    ]
+    ],
+    "body": "Our accelerator provides calibrated workflows for sterilization, surface activation, materials characterization and full traceability. The modular architecture integrates into industrial lines with predictive maintenance and real‑time monitoring."
   },
   "defense": {
     "title": "Defense pathway",
@@ -29,15 +30,18 @@
       "Testing of materials and protective shielding",
       "Training and operational protocols",
       "Infrastructure security and resilience"
-    ]
+    ],
+    "body": "The platform supports controlled‑risk operational scenarios, signature generation for sensors and resilience assessments. The toolset enables traceability, audit and integration with command‑and‑control infrastructures."
   },
   "applications": {
     "title": "Applications",
-    "intro": "Modular, scalable portfolio for industrial, clinical and special‑mission workflows."
+    "intro": "Modular, scalable portfolio for industrial, clinical and special‑mission workflows.",
+    "body": "From sterilization to advanced materials processing and isotope production, modules can be tuned for high throughput or highest precision, with an optimized total cost of ownership."
   },
   "research": {
     "title": "Research",
-    "intro": "Open platform for university partnerships and consortia, with access to data and experimental facilities."
+    "intro": "Open platform for university partnerships and consortia, with access to data and experimental facilities.",
+    "body": "We provide reproducible infrastructure for experiments, data access and publication support. We collaborate on multi‑year programs and technology transfer to industry."
   },
   "contact": {
     "title": "Contact",

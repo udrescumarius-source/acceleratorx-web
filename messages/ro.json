@@ -19,7 +19,8 @@
       "Radioterapie avansată și imagistică",
       "Testare materialelor și control nedistructiv",
       "Producție de izotopi medicali"
-    ]
+    ],
+    "body": "Acceleratorul nostru oferă fluxuri calibrate pentru sterilizare, activarea suprafețelor, caracterizarea materialelor și trasabilitate completă. Arhitectura modulară permite integrare în linii industriale, cu mentenanță predictivă și monitorizare în timp real."
   },
   "defense": {
     "title": "Calea pentru apărare",
@@ -29,15 +30,18 @@
       "Testare materiale și ecrane de protecție",
       "Instruire și protocoale operaționale",
       "Securitate și reziliență infrastructuri"
-    ]
+    ],
+    "body": "Platforma suportă scenarii operaționale cu profil de risc controlat, generare de semnături pentru senzori și evaluări de reziliență. Suita de instrumente permite trasabilitate, audit și integrare cu infrastructuri de comandă și control."
   },
   "applications": {
     "title": "Aplicații",
-    "intro": "Portofoliu modular, scalabil, pentru fluxuri industriale, clinic și misiuni speciale."
+    "intro": "Portofoliu modular, scalabil, pentru fluxuri industriale, clinic și misiuni speciale.",
+    "body": "De la sterilizare la procesare avansată a materialelor și producție de izotopi, modulele pot fi configurate pentru throughput ridicat sau precizie maximă, cu cost total de proprietate optimizat."
   },
   "research": {
     "title": "Cercetare",
-    "intro": "Platformă deschisă pentru parteneriate universitare și consorții, cu acces la date și facilități experimentale."
+    "intro": "Platformă deschisă pentru parteneriate universitare și consorții, cu acces la date și facilități experimentale.",
+    "body": "Oferim infrastructură reproductibilă pentru experimente, acces la date și suport pentru publicare. Colaborăm pe programe multi-anuale și transfer de tehnologie către industrie."
   },
   "contact": {
     "title": "Contact",

@@ -19,7 +19,8 @@
       "Radiothérapie avancée et imagerie",
       "Essais de matériaux et contrôles non destructifs",
       "Production d’isotopes médicaux"
-    ]
+    ],
+    "body": "Notre accélérateur propose des flux calibrés pour la stérilisation, l’activation de surface, la caractérisation des matériaux et une traçabilité complète. L’architecture modulaire s’intègre aux lignes industrielles, avec maintenance prédictive et supervision en temps réel."
   },
   "defense": {
     "title": "Volet défense",
@@ -29,15 +30,18 @@
       "Essais des matériaux et écrans de protection",
       "Entraînement et protocoles opérationnels",
       "Sécurité et résilience des infrastructures"
-    ]
+    ],
+    "body": "La plateforme prend en charge des scénarios opérationnels à risque contrôlé, la génération de signatures pour capteurs et des évaluations de résilience. L’ensemble d’outils permet la traçabilité, l’audit et l’intégration avec les systèmes de commandement et de contrôle."
   },
   "applications": {
     "title": "Applications",
-    "intro": "Portefeuille modulaire et évolutif pour les flux industriels, cliniques et missions spéciales."
+    "intro": "Portefeuille modulaire et évolutif pour les flux industriels, cliniques et missions spéciales.",
+    "body": "De la stérilisation au traitement avancé des matériaux et à la production d’isotopes, les modules se configurent pour un débit élevé ou une précision maximale, avec un coût total de possession optimisé."
   },
   "research": {
     "title": "Recherche",
-    "intro": "Plateforme ouverte pour les partenariats académiques et les consortiums, avec accès aux données et aux installations expérimentales."
+    "intro": "Plateforme ouverte pour les partenariats académiques et les consortiums, avec accès aux données et aux installations expérimentales.",
+    "body": "Nous fournissons une infrastructure reproductible pour les expériences, un accès aux données et un support à la publication. Collaborations sur programmes pluriannuels et transfert de technologie vers l’industrie."
   },
   "contact": {
     "title": "Contact",

@@ -4,6 +4,7 @@ import {getMessages, setRequestLocale, getTranslations} from 'next-intl/server';
 import Link from 'next/link';
 import {ReactNode} from 'react';
 import {locales} from '../../i18n';
+import type {Metadata} from 'next';
 
 export default async function LocaleLayout({
   children,
@@ -49,4 +50,27 @@ export default async function LocaleLayout({
 
 export function generateStaticParams() {
   return locales.map((locale) => ({locale}));
+}
+
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{locale: string}>;
+}): Promise<Metadata> {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'hero'});
+  const title = t('title');
+  const description = t('subtitle');
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `/${locale}`,
+      siteName: 'AcceleratorX',
+      locale,
+      type: 'website'
+    }
+  };
 }
